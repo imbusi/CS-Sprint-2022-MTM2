@@ -14,3 +14,25 @@ D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectPro
 D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.CoreCompileInputs.cache
 D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.exe
 D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.pdb
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\CSSpring2022MTM2.exe.config
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\CSSpring2022MTM2.exe
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\CSSpring2022MTM2.pdb
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.VisualGestureBuilder.dll
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.VisualGestureBuilder.xml
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.AssemblyReference.cache
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\MainWindow.g.cs
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\App.g.cs
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2_MarkupCompile.cache
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2_MarkupCompile.lref
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\MainWindow.baml
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.g.resources
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.Properties.Resources.resources
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.GenerateResource.cache
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.CoreCompileInputs.cache
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.CopyComplete
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.exe
+C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.pdb

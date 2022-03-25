@@ -24,5 +24,10 @@ namespace CSSpring2022MTM2
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
     }
 }
