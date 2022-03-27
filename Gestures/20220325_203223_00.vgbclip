@@ -1,0 +1,1069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ClipFile>
+		<Header>
+			<Date>2022-03-25</Date>
+			<Time>13:48:56.6866112-07:00</Time>
+			<Version>1</Version>
+			<Type>XefClip</Type>
+			<Clip>20220325_203223_00.xef</Clip>
+			<StartFrame>26617</StartFrame>
+			<EndFrame>27765</EndFrame>
+			<ID>64480247-6a20-4c91-9e1b-0199d7c3cf1f</ID>
+		</Header>
+		<UI_State>
+			<CurrentFrameStart>26957</CurrentFrameStart>
+			<CurrentFrameEnd>26958</CurrentFrameEnd>
+			<AttributeInterpolations />
+			<AttributeKeys />
+		</UI_State>
+		<AutoTagged />
+		<Attributes>
+			<Items xsi:type="StringAttribute" Name="Name" Value="" />
+			<Items xsi:type="IntAttribute" Name="Age" Value="0" />
+			<Items xsi:type="FloatAttribute" Name="Weight" Value="0" />
+			<Items xsi:type="FloatAttribute" Name="Height" Value="0" />
+			<Items xsi:type="StringAttribute" Name="Handedness" Value="Right" />
+		</Attributes>
+		<ClipAttributes>
+			<Items Frame="26769">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26770">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26771">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26772">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26773">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26774">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26775">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26776">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26777">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26778">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26779">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26780">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26781">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26782">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26783">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26784">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26785">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26786">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26787">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26788">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26789">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26790">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26791">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26792">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26793">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26794">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26795">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26796">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26797">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26798">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26799">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26800">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26801">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26802">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26803">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26804">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26805">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26806">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26807">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26808">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26809">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26810">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26811">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26812">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26813">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26814">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26815">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26816">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26817">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26818">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26819">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26820">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26821">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26822">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26823">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26824">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26825">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26826">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26827">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26828">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26829">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26830">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26831">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26832">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26833">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26834">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26835">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26836">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26837">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26838">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26839">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26840">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26841">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26842">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26843">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26844">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26845">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26846">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26847">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26848">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26849">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26850">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26851">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26852">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26940">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26941">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26942">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26943">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26944">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26945">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26946">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26947">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26948">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26949">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26950">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26951">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26952">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26953">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26954">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26955">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26956">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26957">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26958">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26959">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26960">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26961">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26962">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26963">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26964">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26965">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26966">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26967">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26968">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26969">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26970">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26971">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26972">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26973">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26974">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26975">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26976">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26977">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26978">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26979">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26980">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26981">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26982">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26983">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26984">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26985">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26986">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26987">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26988">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26989">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26990">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26991">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26992">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26993">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26994">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26995">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26996">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26997">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26998">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="26999">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27000">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27001">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27002">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27089">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27090">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27091">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27092">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27093">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27094">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27095">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27096">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27097">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27098">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27099">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27100">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27101">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27102">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27103">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27104">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27105">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27106">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27107">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27108">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27109">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27110">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27111">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27112">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27113">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27114">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27115">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27116">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27117">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27118">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27119">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27120">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27121">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27122">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27123">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27124">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27125">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27126">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27127">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27128">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27129">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27130">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27131">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27132">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27133">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27134">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27135">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27136">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27137">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27138">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27139">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27140">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27141">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27142">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27143">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27144">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27145">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27146">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27147">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27148">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27149">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27150">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27151">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27152">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27153">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27154">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27233">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27234">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27235">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27236">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27237">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27238">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27239">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27240">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27241">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27242">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27243">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27244">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27245">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27246">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27247">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27248">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27249">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27250">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27251">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27252">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27253">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27254">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27255">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27256">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27257">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27258">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27259">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27260">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27261">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27262">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27263">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27264">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27265">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27266">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27267">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27268">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27269">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27270">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27271">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27272">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27273">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27274">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27275">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27276">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27277">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27278">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27279">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27280">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27281">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27282">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27283">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27284">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27285">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27286">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27287">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27288">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27289">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27290">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27291">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27292">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27293">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27294">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27295">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27296">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27297">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27298">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27299">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27300">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27301">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27302">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27303">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27304">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27305">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27598">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27599">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27600">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27601">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27602">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27603">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27604">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27605">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27606">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27607">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27608">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27609">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27610">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27611">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27612">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27613">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27614">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27615">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27616">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27617">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27618">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27619">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27620">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27621">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27622">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27623">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27624">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27625">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27626">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27627">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27628">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27629">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27630">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27631">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27632">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27633">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27634">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27635">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27636">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27637">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27638">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27639">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27640">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27641">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27642">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27643">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27644">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27645">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27646">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27647">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27648">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27649">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27650">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27651">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27652">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27653">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27654">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27655">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27764">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+			<Items Frame="27765">
+				<Items xsi:type="BoolAttribute" Name="HandOverHead" Value="true" />
+			</Items>
+		</ClipAttributes>
+	</ClipFile>
+</GestureBuilderFile>

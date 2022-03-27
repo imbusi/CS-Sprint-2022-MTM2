@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ClipFile>
+		<Header>
+			<Date>2022-03-25</Date>
+			<Time>15:20:48.6423905-07:00</Time>
+			<Version>1</Version>
+			<Type>XefClip</Type>
+			<Clip>20220325_220747_00.xef</Clip>
+			<StartFrame>31998</StartFrame>
+			<EndFrame>32389</EndFrame>
+			<ID>80b1df85-41c0-41ae-a8ef-53c338db660f</ID>
+		</Header>
+		<UI_State>
+			<CurrentFrameStart>32388</CurrentFrameStart>
+			<CurrentFrameEnd>32389</CurrentFrameEnd>
+			<AttributeInterpolations>
+				<Items>
+					<Description Name="Pickup" Type="FLOAT" />
+					<Start>31998</Start>
+					<End>32389</End>
+					<Method>Bezier</Method>
+				</Items>
+			</AttributeInterpolations>
+			<AttributeKeys>
+				<Items Frame="31998">
+					<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+				</Items>
+				<Items Frame="32113">
+					<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+				</Items>
+				<Items Frame="32174">
+					<Items xsi:type="FloatAttribute" Name="Pickup" Value="1" />
+				</Items>
+				<Items Frame="32175">
+					<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+				</Items>
+				<Items Frame="32388">
+					<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+				</Items>
+			</AttributeKeys>
+		</UI_State>
+		<AutoTagged />
+		<Attributes>
+			<Items xsi:type="StringAttribute" Name="Name" Value="" />
+			<Items xsi:type="IntAttribute" Name="Age" Value="0" />
+			<Items xsi:type="FloatAttribute" Name="Weight" Value="0" />
+			<Items xsi:type="FloatAttribute" Name="Height" Value="0" />
+			<Items xsi:type="StringAttribute" Name="Handedness" Value="Right" />
+		</Attributes>
+		<ClipAttributes>
+			<Items Frame="31998">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+			</Items>
+			<Items Frame="31999">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.00284069427" />
+			</Items>
+			<Items Frame="32000">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0056800996" />
+			</Items>
+			<Items Frame="32001">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.008516927" />
+			</Items>
+			<Items Frame="32002">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0113498885" />
+			</Items>
+			<Items Frame="32003">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.014177694" />
+			</Items>
+			<Items Frame="32004">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0169990547" />
+			</Items>
+			<Items Frame="32005">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0198126826" />
+			</Items>
+			<Items Frame="32006">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0226172879" />
+			</Items>
+			<Items Frame="32007">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0254115835" />
+			</Items>
+			<Items Frame="32008">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0281942766" />
+			</Items>
+			<Items Frame="32009">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.030964084" />
+			</Items>
+			<Items Frame="32010">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03371971" />
+			</Items>
+			<Items Frame="32011">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0364598744" />
+			</Items>
+			<Items Frame="32012">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0391832776" />
+			</Items>
+			<Items Frame="32013">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.04188864" />
+			</Items>
+			<Items Frame="32014">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.04457467" />
+			</Items>
+			<Items Frame="32015">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0472400747" />
+			</Items>
+			<Items Frame="32016">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.04988357" />
+			</Items>
+			<Items Frame="32017">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0525038652" />
+			</Items>
+			<Items Frame="32018">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0550996736" />
+			</Items>
+			<Items Frame="32019">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0576697029" />
+			</Items>
+			<Items Frame="32020">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0602126643" />
+			</Items>
+			<Items Frame="32021">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06272727" />
+			</Items>
+			<Items Frame="32022">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0652122349" />
+			</Items>
+			<Items Frame="32023">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06766626" />
+			</Items>
+			<Items Frame="32024">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07008807" />
+			</Items>
+			<Items Frame="32025">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07247637" />
+			</Items>
+			<Items Frame="32026">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07482987" />
+			</Items>
+			<Items Frame="32027">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0771472752" />
+			</Items>
+			<Items Frame="32028">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07942731" />
+			</Items>
+			<Items Frame="32029">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0816686749" />
+			</Items>
+			<Items Frame="32030">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08387008" />
+			</Items>
+			<Items Frame="32031">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0860302448" />
+			</Items>
+			<Items Frame="32032">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08814788" />
+			</Items>
+			<Items Frame="32033">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09022169" />
+			</Items>
+			<Items Frame="32034">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0922503844" />
+			</Items>
+			<Items Frame="32035">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0942326859" />
+			</Items>
+			<Items Frame="32036">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0961672962" />
+			</Items>
+			<Items Frame="32037">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09805293" />
+			</Items>
+			<Items Frame="32038">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0998882949" />
+			</Items>
+			<Items Frame="32039">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.101672105" />
+			</Items>
+			<Items Frame="32040">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.103403077" />
+			</Items>
+			<Items Frame="32041">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.105079912" />
+			</Items>
+			<Items Frame="32042">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.106701322" />
+			</Items>
+			<Items Frame="32043">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.108266026" />
+			</Items>
+			<Items Frame="32044">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.109772727" />
+			</Items>
+			<Items Frame="32045">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.111220144" />
+			</Items>
+			<Items Frame="32046">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.11260698" />
+			</Items>
+			<Items Frame="32047">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.113931946" />
+			</Items>
+			<Items Frame="32048">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.115193762" />
+			</Items>
+			<Items Frame="32049">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.11639113" />
+			</Items>
+			<Items Frame="32050">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.117522769" />
+			</Items>
+			<Items Frame="32051">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.11858739" />
+			</Items>
+			<Items Frame="32052">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.119583689" />
+			</Items>
+			<Items Frame="32053">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1205104" />
+			</Items>
+			<Items Frame="32054">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.121366218" />
+			</Items>
+			<Items Frame="32055">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.122149855" />
+			</Items>
+			<Items Frame="32056">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.122860029" />
+			</Items>
+			<Items Frame="32057">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.123495445" />
+			</Items>
+			<Items Frame="32058">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.124054819" />
+			</Items>
+			<Items Frame="32059">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.124536864" />
+			</Items>
+			<Items Frame="32060">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.124940284" />
+			</Items>
+			<Items Frame="32061">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1252638" />
+			</Items>
+			<Items Frame="32062">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1255061" />
+			</Items>
+			<Items Frame="32063">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125665918" />
+			</Items>
+			<Items Frame="32064">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125741959" />
+			</Items>
+			<Items Frame="32065">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125732943" />
+			</Items>
+			<Items Frame="32066">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125637561" />
+			</Items>
+			<Items Frame="32067">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125454545" />
+			</Items>
+			<Items Frame="32068">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1251826" />
+			</Items>
+			<Items Frame="32069">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.124820419" />
+			</Items>
+			<Items Frame="32070">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.12436673" />
+			</Items>
+			<Items Frame="32071">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.123820245" />
+			</Items>
+			<Items Frame="32072">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.123179667" />
+			</Items>
+			<Items Frame="32073">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.122443721" />
+			</Items>
+			<Items Frame="32074">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1216111" />
+			</Items>
+			<Items Frame="32075">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.120680526" />
+			</Items>
+			<Items Frame="32076">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.119650714" />
+			</Items>
+			<Items Frame="32077">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.118520364" />
+			</Items>
+			<Items Frame="32078">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.117288195" />
+			</Items>
+			<Items Frame="32079">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.115952916" />
+			</Items>
+			<Items Frame="32080">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.114513233" />
+			</Items>
+			<Items Frame="32081">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.112967864" />
+			</Items>
+			<Items Frame="32082">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.111315519" />
+			</Items>
+			<Items Frame="32083">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.109554909" />
+			</Items>
+			<Items Frame="32084">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.107684739" />
+			</Items>
+			<Items Frame="32085">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.105703726" />
+			</Items>
+			<Items Frame="32086">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.103610583" />
+			</Items>
+			<Items Frame="32087">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.101404019" />
+			</Items>
+			<Items Frame="32088">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0990827456" />
+			</Items>
+			<Items Frame="32089">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0966454744" />
+			</Items>
+			<Items Frame="32090">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09409091" />
+			</Items>
+			<Items Frame="32091">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09141777" />
+			</Items>
+			<Items Frame="32092">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08862476" />
+			</Items>
+			<Items Frame="32093">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0857106" />
+			</Items>
+			<Items Frame="32094">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.082674" />
+			</Items>
+			<Items Frame="32095">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07951366" />
+			</Items>
+			<Items Frame="32096">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0762283057" />
+			</Items>
+			<Items Frame="32097">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07281663" />
+			</Items>
+			<Items Frame="32098">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06927737" />
+			</Items>
+			<Items Frame="32099">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06560921" />
+			</Items>
+			<Items Frame="32100">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0618108772" />
+			</Items>
+			<Items Frame="32101">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.05788108" />
+			</Items>
+			<Items Frame="32102">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0538185239" />
+			</Items>
+			<Items Frame="32103">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.04962193" />
+			</Items>
+			<Items Frame="32104">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.045289997" />
+			</Items>
+			<Items Frame="32105">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.040821448" />
+			</Items>
+			<Items Frame="32106">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.036214985" />
+			</Items>
+			<Items Frame="32107">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0314693265" />
+			</Items>
+			<Items Frame="32108">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0265831761" />
+			</Items>
+			<Items Frame="32109">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.02155525" />
+			</Items>
+			<Items Frame="32110">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0163842589" />
+			</Items>
+			<Items Frame="32111">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0110689122" />
+			</Items>
+			<Items Frame="32112">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.005607922" />
+			</Items>
+			<Items Frame="32113">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+			</Items>
+			<Items Frame="32114">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.00629447959" />
+			</Items>
+			<Items Frame="32115">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.0137851443" />
+			</Items>
+			<Items Frame="32116">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.0224282891" />
+			</Items>
+			<Items Frame="32117">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.032180205" />
+			</Items>
+			<Items Frame="32118">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.0429971926" />
+			</Items>
+			<Items Frame="32119">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.0548355356" />
+			</Items>
+			<Items Frame="32120">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.06765154" />
+			</Items>
+			<Items Frame="32121">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.08140149" />
+			</Items>
+			<Items Frame="32122">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.09604168" />
+			</Items>
+			<Items Frame="32123">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.111528412" />
+			</Items>
+			<Items Frame="32124">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.127817973" />
+			</Items>
+			<Items Frame="32125">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.144866645" />
+			</Items>
+			<Items Frame="32126">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.162630752" />
+			</Items>
+			<Items Frame="32127">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.181066573" />
+			</Items>
+			<Items Frame="32128">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.200130388" />
+			</Items>
+			<Items Frame="32129">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.219778508" />
+			</Items>
+			<Items Frame="32130">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.239967227" />
+			</Items>
+			<Items Frame="32131">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.2606528" />
+			</Items>
+			<Items Frame="32132">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.2817916" />
+			</Items>
+			<Items Frame="32133">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.303339869" />
+			</Items>
+			<Items Frame="32134">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.3252539" />
+			</Items>
+			<Items Frame="32135">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.347489983" />
+			</Items>
+			<Items Frame="32136">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.370004445" />
+			</Items>
+			<Items Frame="32137">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.392753541" />
+			</Items>
+			<Items Frame="32138">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.415693581" />
+			</Items>
+			<Items Frame="32139">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.438780874" />
+			</Items>
+			<Items Frame="32140">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.4619717" />
+			</Items>
+			<Items Frame="32141">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.48522234" />
+			</Items>
+			<Items Frame="32142">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.5084891" />
+			</Items>
+			<Items Frame="32143">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.531728268" />
+			</Items>
+			<Items Frame="32144">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.5548962" />
+			</Items>
+			<Items Frame="32145">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.577949047" />
+			</Items>
+			<Items Frame="32146">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.600843251" />
+			</Items>
+			<Items Frame="32147">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.623535037" />
+			</Items>
+			<Items Frame="32148">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.645980656" />
+			</Items>
+			<Items Frame="32149">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.668136537" />
+			</Items>
+			<Items Frame="32150">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.6899588" />
+			</Items>
+			<Items Frame="32151">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.7114039" />
+			</Items>
+			<Items Frame="32152">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.7324281" />
+			</Items>
+			<Items Frame="32153">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.752987564" />
+			</Items>
+			<Items Frame="32154">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.7730387" />
+			</Items>
+			<Items Frame="32155">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.792537749" />
+			</Items>
+			<Items Frame="32156">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.811441064" />
+			</Items>
+			<Items Frame="32157">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.8297049" />
+			</Items>
+			<Items Frame="32158">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.847285569" />
+			</Items>
+			<Items Frame="32159">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.8641394" />
+			</Items>
+			<Items Frame="32160">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.880222559" />
+			</Items>
+			<Items Frame="32161">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.8954915" />
+			</Items>
+			<Items Frame="32162">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.909902334" />
+			</Items>
+			<Items Frame="32163">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.923411548" />
+			</Items>
+			<Items Frame="32164">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9359753" />
+			</Items>
+			<Items Frame="32165">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.94755" />
+			</Items>
+			<Items Frame="32166">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9580918" />
+			</Items>
+			<Items Frame="32167">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.967557132" />
+			</Items>
+			<Items Frame="32168">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.97590214" />
+			</Items>
+			<Items Frame="32169">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9830833" />
+			</Items>
+			<Items Frame="32170">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.989056766" />
+			</Items>
+			<Items Frame="32171">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9937789" />
+			</Items>
+			<Items Frame="32172">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9972059" />
+			</Items>
+			<Items Frame="32173">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0.9992942" />
+			</Items>
+			<Items Frame="32174">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="1" />
+			</Items>
+			<Items Frame="32175">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+			</Items>
+			<Items Frame="32176">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.004640041" />
+			</Items>
+			<Items Frame="32177">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.009214575" />
+			</Items>
+			<Items Frame="32178">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0137239126" />
+			</Items>
+			<Items Frame="32179">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0181683619" />
+			</Items>
+			<Items Frame="32180">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.02254823" />
+			</Items>
+			<Items Frame="32181">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0268638283" />
+			</Items>
+			<Items Frame="32182">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0311154667" />
+			</Items>
+			<Items Frame="32183">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03530345" />
+			</Items>
+			<Items Frame="32184">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0394280925" />
+			</Items>
+			<Items Frame="32185">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0434897" />
+			</Items>
+			<Items Frame="32186">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0474885777" />
+			</Items>
+			<Items Frame="32187">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0514250435" />
+			</Items>
+			<Items Frame="32188">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0552994" />
+			</Items>
+			<Items Frame="32189">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.05911196" />
+			</Items>
+			<Items Frame="32190">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06286303" />
+			</Items>
+			<Items Frame="32191">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0665529147" />
+			</Items>
+			<Items Frame="32192">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.070181936" />
+			</Items>
+			<Items Frame="32193">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0737503842" />
+			</Items>
+			<Items Frame="32194">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07725859" />
+			</Items>
+			<Items Frame="32195">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08070684" />
+			</Items>
+			<Items Frame="32196">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08409546" />
+			</Items>
+			<Items Frame="32197">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0874247551" />
+			</Items>
+			<Items Frame="32198">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09069503" />
+			</Items>
+			<Items Frame="32199">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0939066038" />
+			</Items>
+			<Items Frame="32200">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09705977" />
+			</Items>
+			<Items Frame="32201">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.100154847" />
+			</Items>
+			<Items Frame="32202">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.103192143" />
+			</Items>
+			<Items Frame="32203">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.106171966" />
+			</Items>
+			<Items Frame="32204">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.109094627" />
+			</Items>
+			<Items Frame="32205">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.111960426" />
+			</Items>
+			<Items Frame="32206">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.11476969" />
+			</Items>
+			<Items Frame="32207">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.117522709" />
+			</Items>
+			<Items Frame="32208">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.120219804" />
+			</Items>
+			<Items Frame="32209">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.122861281" />
+			</Items>
+			<Items Frame="32210">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125447452" />
+			</Items>
+			<Items Frame="32211">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.127978608" />
+			</Items>
+			<Items Frame="32212">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.130455092" />
+			</Items>
+			<Items Frame="32213">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.132877171" />
+			</Items>
+			<Items Frame="32214">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.135245189" />
+			</Items>
+			<Items Frame="32215">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.137559444" />
+			</Items>
+			<Items Frame="32216">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.139820248" />
+			</Items>
+			<Items Frame="32217">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1420279" />
+			</Items>
+			<Items Frame="32218">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.144182712" />
+			</Items>
+			<Items Frame="32219">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.146285" />
+			</Items>
+			<Items Frame="32220">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.148335055" />
+			</Items>
+			<Items Frame="32221">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.150333211" />
+			</Items>
+			<Items Frame="32222">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.152279764" />
+			</Items>
+			<Items Frame="32223">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.154175013" />
+			</Items>
+			<Items Frame="32224">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.156019285" />
+			</Items>
+			<Items Frame="32225">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1578129" />
+			</Items>
+			<Items Frame="32226">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.159556121" />
+			</Items>
+			<Items Frame="32227">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.16124931" />
+			</Items>
+			<Items Frame="32228">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.162892729" />
+			</Items>
+			<Items Frame="32229">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.164486721" />
+			</Items>
+			<Items Frame="32230">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.166031584" />
+			</Items>
+			<Items Frame="32231">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.167527616" />
+			</Items>
+			<Items Frame="32232">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.168975145" />
+			</Items>
+			<Items Frame="32233">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.170374483" />
+			</Items>
+			<Items Frame="32234">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.171725914" />
+			</Items>
+			<Items Frame="32235">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.173029751" />
+			</Items>
+			<Items Frame="32236">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.174286321" />
+			</Items>
+			<Items Frame="32237">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.175495923" />
+			</Items>
+			<Items Frame="32238">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.176658869" />
+			</Items>
+			<Items Frame="32239">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.177775472" />
+			</Items>
+			<Items Frame="32240">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.178846031" />
+			</Items>
+			<Items Frame="32241">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.179870859" />
+			</Items>
+			<Items Frame="32242">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.180850253" />
+			</Items>
+			<Items Frame="32243">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.181784555" />
+			</Items>
+			<Items Frame="32244">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.182674035" />
+			</Items>
+			<Items Frame="32245">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.183519021" />
+			</Items>
+			<Items Frame="32246">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.184319839" />
+			</Items>
+			<Items Frame="32247">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.185076758" />
+			</Items>
+			<Items Frame="32248">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.185790122" />
+			</Items>
+			<Items Frame="32249">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.186460227" />
+			</Items>
+			<Items Frame="32250">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.187087372" />
+			</Items>
+			<Items Frame="32251">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.187671885" />
+			</Items>
+			<Items Frame="32252">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.188214064" />
+			</Items>
+			<Items Frame="32253">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.188714221" />
+			</Items>
+			<Items Frame="32254">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.18917267" />
+			</Items>
+			<Items Frame="32255">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.189589709" />
+			</Items>
+			<Items Frame="32256">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.18996565" />
+			</Items>
+			<Items Frame="32257">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1903008" />
+			</Items>
+			<Items Frame="32258">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.190595478" />
+			</Items>
+			<Items Frame="32259">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.19084999" />
+			</Items>
+			<Items Frame="32260">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191064626" />
+			</Items>
+			<Items Frame="32261">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.19123973" />
+			</Items>
+			<Items Frame="32262">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191375583" />
+			</Items>
+			<Items Frame="32263">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1914725" />
+			</Items>
+			<Items Frame="32264">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1915308" />
+			</Items>
+			<Items Frame="32265">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191550776" />
+			</Items>
+			<Items Frame="32266">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191532761" />
+			</Items>
+			<Items Frame="32267">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191477031" />
+			</Items>
+			<Items Frame="32268">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191383928" />
+			</Items>
+			<Items Frame="32269">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191253737" />
+			</Items>
+			<Items Frame="32270">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.191086769" />
+			</Items>
+			<Items Frame="32271">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.190883353" />
+			</Items>
+			<Items Frame="32272">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.190643787" />
+			</Items>
+			<Items Frame="32273">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.190368369" />
+			</Items>
+			<Items Frame="32274">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.190057412" />
+			</Items>
+			<Items Frame="32275">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.189711243" />
+			</Items>
+			<Items Frame="32276">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.189330146" />
+			</Items>
+			<Items Frame="32277">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.188914448" />
+			</Items>
+			<Items Frame="32278">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.188464463" />
+			</Items>
+			<Items Frame="32279">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.187980473" />
+			</Items>
+			<Items Frame="32280">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1874628" />
+			</Items>
+			<Items Frame="32281">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.186911762" />
+			</Items>
+			<Items Frame="32282">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.186327666" />
+			</Items>
+			<Items Frame="32283">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.185710818" />
+			</Items>
+			<Items Frame="32284">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.185061514" />
+			</Items>
+			<Items Frame="32285">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.184380084" />
+			</Items>
+			<Items Frame="32286">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.183666825" />
+			</Items>
+			<Items Frame="32287">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.18292205" />
+			</Items>
+			<Items Frame="32288">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.182146072" />
+			</Items>
+			<Items Frame="32289">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.181339189" />
+			</Items>
+			<Items Frame="32290">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.180501714" />
+			</Items>
+			<Items Frame="32291">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.17963396" />
+			</Items>
+			<Items Frame="32292">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.178736225" />
+			</Items>
+			<Items Frame="32293">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.177808836" />
+			</Items>
+			<Items Frame="32294">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.176852092" />
+			</Items>
+			<Items Frame="32295">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1758663" />
+			</Items>
+			<Items Frame="32296">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.174851775" />
+			</Items>
+			<Items Frame="32297">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.173808828" />
+			</Items>
+			<Items Frame="32298">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.172737762" />
+			</Items>
+			<Items Frame="32299">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.171638876" />
+			</Items>
+			<Items Frame="32300">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1705125" />
+			</Items>
+			<Items Frame="32301">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.169358924" />
+			</Items>
+			<Items Frame="32302">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.168178469" />
+			</Items>
+			<Items Frame="32303">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.16697143" />
+			</Items>
+			<Items Frame="32304">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.16573815" />
+			</Items>
+			<Items Frame="32305">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1644789" />
+			</Items>
+			<Items Frame="32306">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.163194" />
+			</Items>
+			<Items Frame="32307">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.161883771" />
+			</Items>
+			<Items Frame="32308">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.160548508" />
+			</Items>
+			<Items Frame="32309">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.159188524" />
+			</Items>
+			<Items Frame="32310">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.157804132" />
+			</Items>
+			<Items Frame="32311">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.156395644" />
+			</Items>
+			<Items Frame="32312">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.154963359" />
+			</Items>
+			<Items Frame="32313">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.15350759" />
+			</Items>
+			<Items Frame="32314">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.15202865" />
+			</Items>
+			<Items Frame="32315">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.150526837" />
+			</Items>
+			<Items Frame="32316">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.149002478" />
+			</Items>
+			<Items Frame="32317">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.147455871" />
+			</Items>
+			<Items Frame="32318">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.145887315" />
+			</Items>
+			<Items Frame="32319">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.144297138" />
+			</Items>
+			<Items Frame="32320">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.142685637" />
+			</Items>
+			<Items Frame="32321">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.141053125" />
+			</Items>
+			<Items Frame="32322">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.139399916" />
+			</Items>
+			<Items Frame="32323">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1377263" />
+			</Items>
+			<Items Frame="32324">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.136032611" />
+			</Items>
+			<Items Frame="32325">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.134319142" />
+			</Items>
+			<Items Frame="32326">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.132586211" />
+			</Items>
+			<Items Frame="32327">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.130834118" />
+			</Items>
+			<Items Frame="32328">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.129063174" />
+			</Items>
+			<Items Frame="32329">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1272737" />
+			</Items>
+			<Items Frame="32330">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.125465989" />
+			</Items>
+			<Items Frame="32331">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.123640351" />
+			</Items>
+			<Items Frame="32332">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.121797107" />
+			</Items>
+			<Items Frame="32333">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.119936563" />
+			</Items>
+			<Items Frame="32334">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.118059017" />
+			</Items>
+			<Items Frame="32335">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.116164789" />
+			</Items>
+			<Items Frame="32336">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.114254184" />
+			</Items>
+			<Items Frame="32337">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.112327516" />
+			</Items>
+			<Items Frame="32338">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.110385083" />
+			</Items>
+			<Items Frame="32339">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.1084272" />
+			</Items>
+			<Items Frame="32340">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.106454179" />
+			</Items>
+			<Items Frame="32341">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.104466327" />
+			</Items>
+			<Items Frame="32342">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.102463946" />
+			</Items>
+			<Items Frame="32343">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.100447357" />
+			</Items>
+			<Items Frame="32344">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0984168649" />
+			</Items>
+			<Items Frame="32345">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0963727757" />
+			</Items>
+			<Items Frame="32346">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0943154" />
+			</Items>
+			<Items Frame="32347">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.09224504" />
+			</Items>
+			<Items Frame="32348">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0901620239" />
+			</Items>
+			<Items Frame="32349">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08806664" />
+			</Items>
+			<Items Frame="32350">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0859592" />
+			</Items>
+			<Items Frame="32351">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08384003" />
+			</Items>
+			<Items Frame="32352">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.08170942" />
+			</Items>
+			<Items Frame="32353">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07956769" />
+			</Items>
+			<Items Frame="32354">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0774151459" />
+			</Items>
+			<Items Frame="32355">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07525209" />
+			</Items>
+			<Items Frame="32356">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07307884" />
+			</Items>
+			<Items Frame="32357">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.07089571" />
+			</Items>
+			<Items Frame="32358">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06870299" />
+			</Items>
+			<Items Frame="32359">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06650101" />
+			</Items>
+			<Items Frame="32360">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.06429006" />
+			</Items>
+			<Items Frame="32361">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0620704629" />
+			</Items>
+			<Items Frame="32362">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.05984252" />
+			</Items>
+			<Items Frame="32363">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0576065481" />
+			</Items>
+			<Items Frame="32364">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0553628467" />
+			</Items>
+			<Items Frame="32365">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.053111732" />
+			</Items>
+			<Items Frame="32366">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.05085351" />
+			</Items>
+			<Items Frame="32367">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.048588492" />
+			</Items>
+			<Items Frame="32368">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.04631698" />
+			</Items>
+			<Items Frame="32369">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0440392941" />
+			</Items>
+			<Items Frame="32370">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0417557321" />
+			</Items>
+			<Items Frame="32371">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.039466612" />
+			</Items>
+			<Items Frame="32372">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03717224" />
+			</Items>
+			<Items Frame="32373">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03487292" />
+			</Items>
+			<Items Frame="32374">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03256897" />
+			</Items>
+			<Items Frame="32375">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.03026069" />
+			</Items>
+			<Items Frame="32376">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0279483926" />
+			</Items>
+			<Items Frame="32377">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0256323889" />
+			</Items>
+			<Items Frame="32378">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0233129878" />
+			</Items>
+			<Items Frame="32379">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0209904946" />
+			</Items>
+			<Items Frame="32380">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.01866522" />
+			</Items>
+			<Items Frame="32381">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0163374767" />
+			</Items>
+			<Items Frame="32382">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0140075674" />
+			</Items>
+			<Items Frame="32383">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0116758058" />
+			</Items>
+			<Items Frame="32384">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.009342498" />
+			</Items>
+			<Items Frame="32385">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.007007955" />
+			</Items>
+			<Items Frame="32386">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.0046724854" />
+			</Items>
+			<Items Frame="32387">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="-0.002336397" />
+			</Items>
+			<Items Frame="32388">
+				<Items xsi:type="FloatAttribute" Name="Pickup" Value="0" />
+			</Items>
+		</ClipAttributes>
+	</ClipFile>
+</GestureBuilderFile>
