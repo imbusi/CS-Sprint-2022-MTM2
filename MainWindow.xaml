@@ -16,12 +16,12 @@
 
         <DataTemplate DataType="{x:Type local:GestureResultView}">
             <Grid Width="Auto" Margin="5" Background="{Binding BodyColor}">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="{Binding GestureName}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Column="0" />
-                <TextBlock Text="{Binding GestureConfidence}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Column="1" />
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <TextBlock Text="{Binding Detected, StringFormat='Seated: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Row="0" />
+                <TextBlock Text="{Binding Confidence, StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Row="1" />
             </Grid>
         </DataTemplate>
     </Window.Resources>
@@ -45,10 +45,6 @@
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />

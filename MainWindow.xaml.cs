@@ -1,31 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Microsoft.Kinect;
-using Microsoft.Kinect.VisualGestureBuilder;
-
-namespace CSSpring2022MTM2
+﻿namespace CSSpring2022MTM2
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.ComponentModel;
+    using System.Windows;
+    using System.Windows.Controls;
+    using Microsoft.Kinect;
+    using Microsoft.Kinect.VisualGestureBuilder;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
         /// <summary> Active Kinect sensor </summary>
         private KinectSensor kinectSensor = null;
 
-        /// <summary> Array for the bodies (TODO: needed?) (Kinect will track up to 6 bodies) </summary>
+        /// <summary> Array for the bodies (Kinect will track up to 6 bodies) </summary>
         private Body[] bodies = null;
 
         /// <summary> Reader for body frames </summary>
@@ -38,7 +30,7 @@ namespace CSSpring2022MTM2
         private KinectBodyView kinectBodyView = null;
 
         /// <summary> List of gesture detectors; there will be one per body </summary>
-        //private List<GestureDetector> gestureDetectorList = null;
+        private List<GestureDetector> gestureDetectorList = null;
 
         public MainWindow()
         {
@@ -52,12 +44,17 @@ namespace CSSpring2022MTM2
 
             // TODO: Set Status Text
 
-            // TODO: BodyFrameReader
+            // Get the BodyFrameReader from the KinectSensor object
+            this.bodyFrameReader = this.kinectSensor.BodyFrameSource.OpenReader();
+
+            // Subscribe to the FrameArrived event with our event handler
+            this.bodyFrameReader.FrameArrived += this.Reader_BodyFrameArrived;
 
             // Initialize BodyView object
             this.kinectBodyView = new KinectBodyView(this.kinectSensor);
 
-            // TODO: GestureDetector
+            // GestureDetector
+            this.gestureDetectorList = new List<GestureDetector>();
 
             // Initialize the Main Window
             InitializeComponent();
@@ -65,6 +62,25 @@ namespace CSSpring2022MTM2
             // Set DataContext objects for UI
             this.DataContext = this;
             this.kinectBodyViewbox.DataContext = this.kinectBodyView;
+
+            // Add Feature Detectors
+            int maxBodies = this.kinectSensor.BodyFrameSource.BodyCount;
+            for (int i = 0; i < maxBodies; i++)
+            {
+                // Generate 6 new detector objects
+                // TODO: Figure out if this can be consolidated into one
+                GestureResultView result = new GestureResultView(i, false, false, 0.0f);
+                GestureDetector detector = new GestureDetector(this.kinectSensor, result);
+                this.gestureDetectorList.Add(detector);
+
+                // Distribute detectors into right-hand column
+                ContentControl contentControl = new ContentControl();
+                contentControl.Content = this.gestureDetectorList[i].GestureResultView;
+                Grid.SetColumn(contentControl, 1);
+                Grid.SetRow(contentControl, i);
+
+                this.contentGrid.Children.Add(contentControl);
+            }
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -72,6 +88,7 @@ namespace CSSpring2022MTM2
             if (this.bodyFrameReader != null)
             {
                 // Is IDisposable
+                this.bodyFrameReader.FrameArrived -= this.Reader_BodyFrameArrived;
                 this.bodyFrameReader.Dispose();
                 this.bodyFrameReader = null;
             }
@@ -82,5 +99,66 @@ namespace CSSpring2022MTM2
                 this.kinectSensor = null;
             }
         }
+
+        /// <summary>
+        /// INotifyPropertyChangedPropertyChanged event to allow window controls to bind to changeable data
+        /// </summary>
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        /// <summary>
+        /// Handles the body frame data arriving from the sensor and updates the associated gesture detector object for each body
+        /// </summary>
+        /// <param name="sender">object sending the event</param>
+        /// <param name="e">event arguments</param>
+        private void Reader_BodyFrameArrived(object sender, BodyFrameArrivedEventArgs e)
+        {
+            bool dataReceived = false;
+
+            using (BodyFrame bodyFrame = e.FrameReference.AcquireFrame())
+            {
+                if (bodyFrame != null)
+                {
+                    if (this.bodies == null)
+                    {
+                        // creates an array of 6 bodies, which is the max number of bodies that Kinect can track simultaneously
+                        this.bodies = new Body[bodyFrame.BodyCount];
+                    }
+
+                    // The first time GetAndRefreshBodyData is called, Kinect will allocate each Body in the array.
+                    // As long as those body objects are not disposed and not set to null in the array,
+                    // those body objects will be re-used.
+                    bodyFrame.GetAndRefreshBodyData(this.bodies);
+                    dataReceived = true;
+                }
+            }
+
+            if (dataReceived)
+            {
+                // visualize the new body data
+                this.kinectBodyView.UpdateBodyFrame(this.bodies);
+
+                // we may have lost/acquired bodies, so update the corresponding gesture detectors
+                if (this.bodies != null)
+                {
+                    // loop through all bodies to see if any of the gesture detectors need to be updated
+                    int maxBodies = this.kinectSensor.BodyFrameSource.BodyCount;
+                    for (int i = 0; i < maxBodies; ++i)
+                    {
+                        Body body = this.bodies[i];
+                        ulong trackingId = body.TrackingId;
+
+                        // if the current body TrackingId changed, update the corresponding gesture detector with the new value
+                        if (trackingId != this.gestureDetectorList[i].TrackingId)
+                        {
+                            this.gestureDetectorList[i].TrackingId = trackingId;
+
+                            // if the current body is tracked, unpause its detector to get VisualGestureBuilderFrameArrived events
+                            // if the current body is not tracked, pause its detector so we don't waste resources trying to get invalid gesture results
+                            this.gestureDetectorList[i].IsPaused = trackingId == 0;
+                        }
+                    }
+                }
+            }
+        } // private void Reader_BodyFrameArrived
     } // class MainWindow
 } // namespace CSSpring2022MTM2

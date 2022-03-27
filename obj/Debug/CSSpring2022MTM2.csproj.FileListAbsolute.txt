@@ -36,3 +36,11 @@ C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Spr
 C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.CopyComplete
 C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.exe
 C:\Users\Jared\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.pdb
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.dll
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.VisualGestureBuilder.dll
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.xml
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Microsoft.Kinect.VisualGestureBuilder.xml
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2.csproj.CopyComplete
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\bin\Debug\Database\Seated.gbd
+D:\Documents\OneDrive - UA\OneDrive - The University of Alabama\CS 499\KinectProjects\CS-Sprint-2022-MTM2\obj\Debug\CSSpring2022MTM2_Content.g.cs
