@@ -1,7 +1,9 @@
 ﻿//------------------------------------------------------------------------------
-// <copyright file="GestureDetector.cs" company="Microsoft">
-//     Copyright (c) Microsoft Corporation.  All rights reserved.
-// </copyright>
+// GestureDetector Class
+//  Based on the example GestureDetector from 'DiscreteGestureBasics-WPF'.
+//
+//  Implementation modified to support multiple database files and updated 
+//  GestureResultView class interface.
 //------------------------------------------------------------------------------
 
 namespace CSSpring2022MTM2
@@ -11,29 +13,29 @@ namespace CSSpring2022MTM2
     using Microsoft.Kinect;
     using Microsoft.Kinect.VisualGestureBuilder;
 
-    /// <summary>
-    /// Gesture Detector class which listens for VisualGestureBuilderFrame events from the service
-    /// and updates the associated GestureResultView object with the latest results for the 'Seated' gesture
-    /// </summary>
+    // GestureDetector listens to the VisualGestureBuilderFrame frame events from the KinectService and
+    // updates each gesture in the GestureResultView object.
     public class GestureDetector : IDisposable
     {
-        /// <summary> Path to the gesture database that was trained with VGB </summary>
-        private readonly string gestureDatabase = @"Database\Seated.gbd";
+        // Array of filenames from which to include gesture data
+        private readonly string[] databaseFiles = { @"Database\499Gestures.gbd", @"Database\Seated.gbd" };
 
-        /// <summary> Name of the discrete gesture in the database that we want to track </summary>
-        private readonly string seatedGestureName = "Seated";
+        // List of discrete gesture names to identify
+        private List<string> gestureNames = null;
 
-        /// <summary> Gesture frame source which should be tied to a body tracking ID </summary>
+        // The Gesture frame source which is tied to a body tracking ID
         private VisualGestureBuilderFrameSource vgbFrameSource = null;
 
-        /// <summary> Gesture frame reader which will handle gesture events coming from the sensor </summary>
+        // The Gesture frame reader which will be subscribed to for frame updates
         private VisualGestureBuilderFrameReader vgbFrameReader = null;
 
         /// <summary>
-        /// Initializes a new instance of the GestureDetector class along with the gesture frame source and reader
+        /// Class constructor. Subscribes to the kinectSensor's VisualGestureBuilder frame data & loads gestures to the
+        /// GestureResultView object.
         /// </summary>
-        /// <param name="kinectSensor">Active sensor to initialize the VisualGestureBuilderFrameSource object with</param>
-        /// <param name="gestureResultView">GestureResultView object to store gesture results of a single body to</param>
+        /// <param name="kinectSensor">The defaulty kinectSensor to connect to.</param>
+        /// <param name="gestureResultView">The GestureResultView object used for this body ID.</param>
+        /// <exception cref="ArgumentNullException">Exceptions if either argument is null.</exception>
         public GestureDetector(KinectSensor kinectSensor, GestureResultView gestureResultView)
         {
             if (kinectSensor == null)
@@ -48,11 +50,11 @@ namespace CSSpring2022MTM2
 
             this.GestureResultView = gestureResultView;
 
-            // create the vgb source. The associated body tracking ID will be set when a valid body frame arrives from the sensor.
+            // Create the vgb source. The associated body tracking ID will be set when a valid body frame arrives from the sensor.
             this.vgbFrameSource = new VisualGestureBuilderFrameSource(kinectSensor, 0);
             this.vgbFrameSource.TrackingIdLost += this.Source_TrackingIdLost;
 
-            // open the reader for the vgb frames
+            // Open the reader for the vgb frames
             this.vgbFrameReader = this.vgbFrameSource.OpenReader();
             if (this.vgbFrameReader != null)
             {
@@ -60,19 +62,24 @@ namespace CSSpring2022MTM2
                 this.vgbFrameReader.FrameArrived += this.Reader_GestureFrameArrived;
             }
 
-            // load the 'Seated' gesture from the gesture database
-            using (VisualGestureBuilderDatabase database = new VisualGestureBuilderDatabase(this.gestureDatabase))
+            // Load all gestures from /Database/ folder
+            this.GestureNames = new List<string>();
+            foreach (String dbFile in databaseFiles)
             {
-                // we could load all available gestures in the database with a call to vgbFrameSource.AddGestures(database.AvailableGestures), 
-                // but for this program, we only want to track one discrete gesture from the database, so we'll load it by name
-                foreach (Gesture gesture in database.AvailableGestures)
+                using (VisualGestureBuilderDatabase db = new VisualGestureBuilderDatabase(dbFile))
                 {
-                    if (gesture.Name.Equals(this.seatedGestureName))
+                    foreach (Gesture gesture in db.AvailableGestures)
                     {
                         this.vgbFrameSource.AddGesture(gesture);
+                        this.GestureNames.Add(gesture.Name);
                     }
                 }
             }
+            // Add temporary gesture tags while the total number of gestures is < 8
+            for (int i = this.GestureNames.Count; i < 8; i++) this.GestureNames.Add("temp");
+
+            // Update the GestureResultView 
+            this.GestureResultView.LoadGestures(GestureNames);
         }
 
         /// <summary> Gets the GestureResultView object which stores the detector results for display in the UI </summary>
@@ -114,6 +121,23 @@ namespace CSSpring2022MTM2
                 if (this.vgbFrameReader.IsPaused != value)
                 {
                     this.vgbFrameReader.IsPaused = value;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Gets the list of Gesture names for this detector. This is assumed to not change
+        /// after the constructor is called.
+        /// </summary>
+        public List<string> GestureNames
+        {
+            get { return this.gestureNames; }
+
+            private set
+            {
+                if (this.gestureNames != value)
+                {
+                    this.gestureNames = value;
                 }
             }
         }
@@ -161,25 +185,30 @@ namespace CSSpring2022MTM2
             VisualGestureBuilderFrameReference frameReference = e.FrameReference;
             using (VisualGestureBuilderFrame frame = frameReference.AcquireFrame())
             {
+                // Only try to read valid frames
                 if (frame != null)
                 {
-                    // get the discrete gesture results which arrived with the latest frame
+                    // Get the discrete gesture results which arrived with the latest frame
                     IReadOnlyDictionary<Gesture, DiscreteGestureResult> discreteResults = frame.DiscreteGestureResults;
 
                     if (discreteResults != null)
                     {
-                        // we only have one gesture in this source object, but you can get multiple gestures
-                        foreach (Gesture gesture in this.vgbFrameSource.Gestures)
+                        // Identify each gesture in the set. 
+                        // TODO: O(n*g) operation; can this be improved?
+                        for (int i = 0; i < this.GestureNames.Count; i++)
                         {
-                            if (gesture.Name.Equals(this.seatedGestureName) && gesture.GestureType == GestureType.Discrete)
+                            foreach (Gesture gesture in this.vgbFrameSource.Gestures)
                             {
-                                DiscreteGestureResult result = null;
-                                discreteResults.TryGetValue(gesture, out result);
-
-                                if (result != null)
+                                if (gesture.Name.Equals(this.GestureNames[i]))
                                 {
-                                    // update the GestureResultView object with new gesture result values
-                                    this.GestureResultView.UpdateGestureResult(true, result.Detected, result.Confidence);
+                                    DiscreteGestureResult result = null;
+                                    discreteResults.TryGetValue(gesture, out result);
+
+                                    if (result != null)
+                                    {
+                                        // Update the GestureResultView object with new gesture result values
+                                        this.GestureResultView.UpdateGestureResult(true, i, result.Detected, result.Confidence);
+                                    }
                                 }
                             }
                         }
@@ -196,7 +225,10 @@ namespace CSSpring2022MTM2
         private void Source_TrackingIdLost(object sender, TrackingIdLostEventArgs e)
         {
             // update the GestureResultView object to show the 'Not Tracked' image in the UI
-            this.GestureResultView.UpdateGestureResult(false, false, 0.0f);
+            for (int i = 0; i < this.GestureNames.Count; i++)
+            {
+                this.GestureResultView.UpdateGestureResult(false, i, false, 0.0f);
+            }
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSSpring2022MTM2"
         mc:Ignorable="d"
-        Title="CS499 MTM Study - Team 2" 
+        Title="CS499 MTM Study Team 2 - Final Demo" 
         Height="650" Width="750"
         Closing="Window_Closing">
 
@@ -13,19 +13,8 @@
     <Window.Resources>
         <SolidColorBrush x:Key="UACrimson" Color="#ffa51e36" />
         <SolidColorBrush x:Key="UAGrey" Color="#ff7e888e" />
-
-        <DataTemplate DataType="{x:Type local:GestureResultView}">
-            <Grid Width="Auto" Margin="5" Background="{Binding BodyColor}">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <TextBlock Text="{Binding Detected, StringFormat='Seated: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Row="0" />
-                <TextBlock Text="{Binding Confidence, StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold" Grid.Row="1" />
-            </Grid>
-        </DataTemplate>
     </Window.Resources>
-    
+
     <!-- Main Content Window -->
     <Grid>
         <Grid.RowDefinitions>
@@ -33,11 +22,14 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        
+
         <!-- Top Row: Header Information -->
-        <Image Grid.Row="0" Source="Images/OfficLogo-Engineering.png" HorizontalAlignment="Right" Height="48" Margin="0 5 5 5" />
-        <TextBlock Grid.Row="0" HorizontalAlignment="Left" Margin="5 0 0 0" VerticalAlignment="Center" Foreground="{StaticResource UACrimson}" FontFamily="Segoe UI" FontSize="18">MTM Study - CS499 Group 2</TextBlock>
-        
+        <Image Grid.Row="0" Source="Images/CapstoneALogo-Engineering.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="48" Margin="5" />
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{StaticResource UACrimson}" FontFamily="Segoe UI" FontWeight="Bold" FontSize="18" Margin="222,0,0,0">
+            MTM Study - CS499 Group 2
+        </TextBlock>
+        <Image Grid.Row="0" Source="Images/MBUSI-Logo.png" HorizontalAlignment="Right" VerticalAlignment="Center" Height="48" Margin="5" />
+
         <!-- Middle Row: Content -->
         <Grid x:Name="contentGrid" Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -46,21 +38,147 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.RowSpan="10" Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- StackPanel holds the live view & a program description. -->
+            <StackPanel Grid.Column="0" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Viewbox x:Name="kinectBodyViewbox">
                     <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
                 </Viewbox>
-                <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia neque eget tellus lobortis, et tincidunt risus bibendum. Nulla porta tristique tellus, at consequat erat efficitur vitae. Nulla eu mauris." TextWrapping="Wrap" Margin="5 10 5 5" Foreground="{StaticResource UAGrey}" FontSize="14" FontFamily="Segoe UI" />
+                <TextBlock Text="This application presents a live preview of the gestures recorded for the MBUSI MTM Study. This program is capable of recording up to 6 bodies." 
+                           TextWrapping="Wrap" Margin="5 10 5 5" Foreground="{StaticResource UAGrey}" FontSize="14" FontFamily="Segoe UI" />
             </StackPanel>
+
+            <!-- TabControl features an array of each viewbox -->
+            <TabControl x:Name="GestureViewBox" Grid.Column="2">
+                <TabControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Ellipse Width="16" Height="16" Fill="{Binding BodyColor}"/>
+                            <TextBlock Text="{Binding BodyIndex}" HorizontalAlignment="Center" FontWeight="Bold" />
+                        </Grid>
+                    </DataTemplate>
+                </TabControl.ItemTemplate>
+                <TabControl.ContentTemplate>
+
+                    <!-- GESTURERESULTVIEW: 8 Gestures Shown -->
+                    <DataTemplate DataType="{x:Type local:GestureResultView}">
+                        <Grid Width="Auto">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+
+                            <StackPanel Grid.Row="0" Background="{Binding GestureColors[0]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[0]" />
+                                            <Binding Path="Detections[0]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[0], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="1" Background="{Binding GestureColors[1]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[1]" />
+                                            <Binding Path="Detections[1]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[1], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="2" Background="{Binding GestureColors[2]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[2]" />
+                                            <Binding Path="Detections[2]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[2], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="3" Background="{Binding GestureColors[3]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[3]" />
+                                            <Binding Path="Detections[3]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[3], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="4" Background="{Binding GestureColors[4]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[4]" />
+                                            <Binding Path="Detections[4]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[4], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="5" Background="{Binding GestureColors[5]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[5]" />
+                                            <Binding Path="Detections[5]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[5], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="6" Background="{Binding GestureColors[6]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[6]" />
+                                            <Binding Path="Detections[6]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[6], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Row="7" Background="{Binding GestureColors[7]}" Margin="0 2 0 2">
+                                <TextBlock FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{}{0}: {1}">
+                                            <Binding Path="GestureNames[7]" />
+                                            <Binding Path="Detections[7]" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Confidences[7], StringFormat='Confidence: {0}'}" FontSize="16" FontFamily="Segoe UI" FontWeight="SemiBold"/>
+                            </StackPanel>
+
+                        </Grid>
+                    </DataTemplate>
+                    <!-- END GESTURERESULTVIEW -->
+
+                </TabControl.ContentTemplate>
+            </TabControl>
         </Grid>
-        
+
         <!-- Bottom Row: Status Bar -->
         <StatusBar Grid.Row="2" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="LightGray">
             <StatusBarItem Content="Finish me!"/>

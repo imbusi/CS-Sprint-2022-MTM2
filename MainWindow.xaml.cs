@@ -1,37 +1,38 @@
 ﻿namespace CSSpring2022MTM2
 {
-    using System;
     using System.Collections.Generic;
-    using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.Windows;
-    using System.Windows.Controls;
     using Microsoft.Kinect;
-    using Microsoft.Kinect.VisualGestureBuilder;
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
-        /// <summary> Active Kinect sensor </summary>
+        // The standard kinectSensor object
         private KinectSensor kinectSensor = null;
 
-        /// <summary> Array for the bodies (Kinect will track up to 6 bodies) </summary>
+        // Array of Body objects; array will be initialized to six bodies when data arrives
         private Body[] bodies = null;
 
-        /// <summary> Reader for body frames </summary>
+        // Reads body data for each frame incoming from the Kinect
         private BodyFrameReader bodyFrameReader = null;
 
         /// <summary> Current status text to display </summary>
         private string statusText = null;
 
-        /// <summary> KinectBodyView handles drawing Kinect bodies to a View box in the UI </summary>
+        // Vizualization tool; uses class from Kinect examples
         private KinectBodyView kinectBodyView = null;
 
-        /// <summary> List of gesture detectors; there will be one per body </summary>
+        // Set of gesture detectors and their corresponding visualizers
+        // There will be one detector/resultview per body (6 total of each)
         private List<GestureDetector> gestureDetectorList = null;
+        private List<GestureResultView> gestureViewList = null;
 
+        /// <summary>
+        /// Initializer for the main application window.
+        /// </summary>
         public MainWindow()
         {
             // Connect to Kinect Sensor
@@ -44,50 +45,50 @@
 
             // TODO: Set Status Text
 
-            // Get the BodyFrameReader from the KinectSensor object
+            // Get the BodyFrameReader object & add frame event handler
             this.bodyFrameReader = this.kinectSensor.BodyFrameSource.OpenReader();
-
-            // Subscribe to the FrameArrived event with our event handler
             this.bodyFrameReader.FrameArrived += this.Reader_BodyFrameArrived;
 
             // Initialize BodyView object
             this.kinectBodyView = new KinectBodyView(this.kinectSensor);
 
-            // GestureDetector
+            // Initialize the GestureDetector and GestureResultView collections
             this.gestureDetectorList = new List<GestureDetector>();
+            this.gestureViewList = new List<GestureResultView>();
 
             // Initialize the Main Window
             InitializeComponent();
 
-            // Set DataContext objects for UI
+            // Set DataContext objects for the UI
             this.DataContext = this;
             this.kinectBodyViewbox.DataContext = this.kinectBodyView;
 
-            // Add Feature Detectors
+            // Generate 6 new Detector and ResultView objects
             int maxBodies = this.kinectSensor.BodyFrameSource.BodyCount;
             for (int i = 0; i < maxBodies; i++)
             {
                 // Generate 6 new detector objects
-                // TODO: Figure out if this can be consolidated into one
-                GestureResultView result = new GestureResultView(i, false, false, 0.0f);
+                GestureResultView result = new GestureResultView(i, false);
                 GestureDetector detector = new GestureDetector(this.kinectSensor, result);
                 this.gestureDetectorList.Add(detector);
-
-                // Distribute detectors into right-hand column
-                ContentControl contentControl = new ContentControl();
-                contentControl.Content = this.gestureDetectorList[i].GestureResultView;
-                Grid.SetColumn(contentControl, 1);
-                Grid.SetRow(contentControl, i);
-
-                this.contentGrid.Children.Add(contentControl);
+                this.gestureViewList.Add(result);
             }
+
+            // Connect the list of GestureResultView objects to the TabView UI
+            this.GestureViewBox.ItemsSource = this.gestureViewList;
+            this.GestureViewBox.SelectedIndex = 0;
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        /// <summary>
+        /// Handler for when the application window is closed.
+        /// </summary>
+        /// <param name="sender">object sending the event</param>
+        /// <param name="e">event arguments</param>
+        private void Window_Closing(object sender, CancelEventArgs e)
         {
             if (this.bodyFrameReader != null)
             {
-                // Is IDisposable
+                // BodyFrameReader is IDisposable
                 this.bodyFrameReader.FrameArrived -= this.Reader_BodyFrameArrived;
                 this.bodyFrameReader.Dispose();
                 this.bodyFrameReader = null;
@@ -120,7 +121,7 @@
                 {
                     if (this.bodies == null)
                     {
-                        // creates an array of 6 bodies, which is the max number of bodies that Kinect can track simultaneously
+                        // Initialize the body array, which always contains 6 bodies
                         this.bodies = new Body[bodyFrame.BodyCount];
                     }
 
@@ -134,26 +135,25 @@
 
             if (dataReceived)
             {
-                // visualize the new body data
+                // Send this frame to the visualizer class
                 this.kinectBodyView.UpdateBodyFrame(this.bodies);
 
-                // we may have lost/acquired bodies, so update the corresponding gesture detectors
                 if (this.bodies != null)
                 {
-                    // loop through all bodies to see if any of the gesture detectors need to be updated
+                    // Loop through all bodies and update detectors
                     int maxBodies = this.kinectSensor.BodyFrameSource.BodyCount;
                     for (int i = 0; i < maxBodies; ++i)
                     {
                         Body body = this.bodies[i];
                         ulong trackingId = body.TrackingId;
 
-                        // if the current body TrackingId changed, update the corresponding gesture detector with the new value
+                        // If the current body TrackingId changed, update the corresponding gesture detector with the new value
                         if (trackingId != this.gestureDetectorList[i].TrackingId)
                         {
                             this.gestureDetectorList[i].TrackingId = trackingId;
 
-                            // if the current body is tracked, unpause its detector to get VisualGestureBuilderFrameArrived events
-                            // if the current body is not tracked, pause its detector so we don't waste resources trying to get invalid gesture results
+                            // If the current body is tracked, unpause its detector to get VisualGestureBuilderFrameArrived events
+                            // If the current body is not tracked, pause its detector so we don't waste resources trying to get invalid gesture results
                             this.gestureDetectorList[i].IsPaused = trackingId == 0;
                         }
                     }
