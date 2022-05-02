@@ -10,5 +10,6 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/seated.gbd")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/499gestures.gbd")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/499gestures_2.gbd")]
 
 

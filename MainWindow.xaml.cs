@@ -38,12 +38,12 @@
             // Connect to Kinect Sensor
             this.kinectSensor = KinectSensor.GetDefault();
 
-            // TODO: Add code for detecting KinectSensor availability for status bar
-
             // Open sensor
             this.kinectSensor.Open();
 
-            // TODO: Set Status Text
+            // Set Status Text
+            this.StatusText = this.kinectSensor.IsAvailable ? Properties.Resources.RunningStatus
+                                                            : Properties.Resources.NoSensorStatus;
 
             // Get the BodyFrameReader object & add frame event handler
             this.bodyFrameReader = this.kinectSensor.BodyFrameSource.OpenReader();
@@ -77,6 +77,28 @@
             // Connect the list of GestureResultView objects to the TabView UI
             this.GestureViewBox.ItemsSource = this.gestureViewList;
             this.GestureViewBox.SelectedIndex = 0;
+        }
+
+        /// <summary>
+        /// Gets the current application status.
+        /// </summary>
+        public string StatusText
+        {
+            get { return this.statusText; }
+
+            set
+            {
+                if (this.statusText != value)
+                {
+                    this.statusText = value;
+
+                    // notify any bound elements that the text has changed
+                    if (this.PropertyChanged != null)
+                    {
+                        this.PropertyChanged(this, new PropertyChangedEventArgs("StatusText"));
+                    }
+                }
+            }
         }
 
         /// <summary>
@@ -160,5 +182,17 @@
                 }
             }
         } // private void Reader_BodyFrameArrived
+
+        /// <summary>
+        /// Handles the event for if the sensor is closed for any reason
+        /// </summary>
+        /// <param name="sender">object sending the event</param>
+        /// <param name="e">event arguments</param>
+        private void Sensor_IsAvailableChanged(object sender, IsAvailableChangedEventArgs e)
+        {
+            // on failure, set the status text
+            this.StatusText = this.kinectSensor.IsAvailable ? Properties.Resources.RunningStatus
+                                                            : Properties.Resources.NotAvailableStatus;
+        }
     } // class MainWindow
 } // namespace CSSpring2022MTM2

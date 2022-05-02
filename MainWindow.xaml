@@ -25,8 +25,8 @@
 
         <!-- Top Row: Header Information -->
         <Image Grid.Row="0" Source="Images/CapstoneALogo-Engineering.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="48" Margin="5" />
-        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{StaticResource UACrimson}" FontFamily="Segoe UI" FontWeight="Bold" FontSize="18" Margin="222,0,0,0">
-            MTM Study - CS499 Group 2
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{StaticResource UACrimson}" FontFamily="Segoe UI" FontWeight="Bold" FontSize="16" Margin="226,0,0,0" TextAlignment="Center">
+            Methods Time-Management<LineBreak />CS499 Group 2
         </TextBlock>
         <Image Grid.Row="0" Source="Images/MBUSI-Logo.png" HorizontalAlignment="Right" VerticalAlignment="Center" Height="48" Margin="5" />
 
@@ -181,7 +181,7 @@
 
         <!-- Bottom Row: Status Bar -->
         <StatusBar Grid.Row="2" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="LightGray">
-            <StatusBarItem Content="Finish me!"/>
+            <StatusBarItem Content="{Binding StatusText}"/>
         </StatusBar>
     </Grid>
 </Window>

@@ -18,7 +18,7 @@ namespace CSSpring2022MTM2
     public class GestureDetector : IDisposable
     {
         // Array of filenames from which to include gesture data
-        private readonly string[] databaseFiles = { @"Database\499Gestures.gbd", @"Database\Seated.gbd" };
+        private readonly string[] databaseFiles = { @"Database\499Gestures.gbd", @"Database\Seated.gbd", @"Database\499Gestures_2.gbd" };
 
         // List of discrete gesture names to identify
         private List<string> gestureNames = null;
